@@ -1,0 +1,55 @@
+/Area 51: According to USA, it is a secret base camp at niwada (to the west), where new experiments are performed to increase their security, test new military based weapons and also aircrafts. Many do believe that experiments are performed with humans and aliens (their creation, which are helpful in any further warfare). Creation of a sort that they do not feel pain if they are injured (they can remove veins out of their eyes and even could fly). UFO (Unidentified Flying Object).
+
+Cyber hacks: 
+•	2008 - Configure worm: slows down the computer, replicates and extracts information. The endless one. 20% of reason of cyber hacks in 2015.
+•	Stucksnet – first digital weapon, attacked nuclear plants in iran by adding a wormcode in the pendrives of employees which eventually spread.  Centrifugal process with Uranium got out of control.
+•	Home depot credit card attack: password got accessed using a vulnerability of Microsoft. With that whole database got accessed, in a blockchain where other small depots were connected. 56 million credit cards details were extracted.
+•	Spamhouse attack, 2013 DDOS (Distributed Denial Of Service) attack by a London teenager, which enlists spammers and hackers and blacklists from some other websites.
+•	2014- 146 millions affected due to phishing, where credit card details were extracted.
+•	2014 june – Russian hackers footprinted JP Morgan company.
+•	1999 melissa virus belong to porn websites, which sent an email to first 50 when downloaded.
+•	linkedIn hacked by peace named hacker, got known after 4 years when user id and passwords were sold out at $2300 in darkweb. But later the hacker himself fixed the vulnerability.
+•	In 2011, gamerscube, a playstation network of sony was hacked such that the gamer couldn’t play the game online for a week and personal details of it’s 77 million gamers were extracted.
+•	“The hack of the century”- kim jung yung, a north Korean leader, hired some hackers against “interview” film of sony pictures in which he’s assassinated. Personal details of it’s workers were extracted and deleted. On the next day, when the workers opened their systems, they found zombies and sounds of gunshots. The executives employed over there found their heads cut, which was really scary for them. The hackers even made the incomplete film viral, indeed lead to a great loss to the company.
+•	2012 Armaco, an oil company of Saudi arabia (10% of oil production worldwide), got hacked when a technician clicked a link in mail which yielded to the crash of 35000 computers.
+
+Deadly mailer: Checkmaster ethical hacking course- (technical sagar: quickhack course, tor browser) from tor browser to emkei’s fake emailer (can send a mail to any account from a fake id).
+1337 LEET: the origin of nu118y739. 
+Lulz: Based on gray hat hackers. Mentioning the vulnerabilities to the company provided with some expenses put on it by the company but without malicious thoughts.
+Deep web and Dark web: 2001 – 7.5 peta bytes -> 2003 – 91500 peta bytes. Tor browser is mandatory. Books out of reach of normal people. Fake IDs and passports are created. Transaction through bitcoins. Even souls (or aborted child) are sold. Government, journalists are also able to track all the three – buyer, seller and their website. Death grip’s album ”no love, deep web”. Though illegal, not crashed since government sponsors, USA. Sweden funding, started for military based. Events – how to cut and cook women, sell drugs even carrots, wish pill, information about past centuries, secrets about wars, bread by a german seller, cicada 3301 puzzle every year.
+Doxing: techmaster ethical hacking course – a type of footprinting in which any details can be made available. “drizzybot.com” -> our dox services, through username.
+Steganography: first cat .jpg .zip >.jpg then unzip .jpg
+PGP Encryption: (Pretty Gold Privacy) dark web sellers give a PGP key (publicly) such that the buyer could decrypt and get the information. Two keys- one public for encryption and the other private for decryption. From www.igolder.com/PGP/ the key can be generated, encrypted and then decrypted.
+VPN: a tunnel between the network user and network provider. It keeps the information surfed by the user in private. Nordvpn – best premium VPN.
+Peer to Peer Network: normally when we send an email to other, a server connects the one who sends and also receives, such that both accesses the information. But in peer to peer network, this server does not exist, the information is directly sent to the computer of receiver. This network had started from a service called napster, where mp3 files where shared among, so as one downloads few files from the other, they would get stored in hub. Later, utorrent and bit torrent were introduced. Problem arose when the copyrights got spread. Torrent directly gives address of the things we need to access or download where the computer of others acts as the server. Once we have downloaded something we then become a provider now such that if any other person wants, he gets from us. Problem arose when the one downloaded refuses to upload in others (become a provider) as it involves much band width. Virus malware is also spread through this. 2009-10 CS4, a photoshop version, spread virus, wherein not due to the photoshop setup but due to crack (serial key generator), it got infected. Gnutella of 2000 is the first decentralized sharing network. 
+Cryptography: “symmetric encryption/cryptography” – when the encryption and decryption keys are similar otherwise asymmetric. Bitcoin (digital/ decentralized currency) is an application. HTTPS (s – secure) – it’s different from http, as it is secured using encryption while web browsing. 
+Backdoor: it could be referred to as a piece of software or command lines which gives a way to penetrate into a computer. This is created by the hacker when he attacked a computer for the first time and left so that he could follow this path for next time (instead of transferring the payload again which is risky). Sanskrit – reliable computer programming language.
+/VPS Practical: Virtual Private Server is a remote server which operates the system from far. It is used mostly by innovative website makers and applicants. Free is available but not recommended. It has manage and configurable options…
+Safe mode: it is just a mode in which basic computer runs when open excluding other graphics, animations, sound drivers etc.
+Government backed hackers: enable two factor authentication for more secure google account. A physical key (encrypted – cryptography) is also available. 
+DEF CON: event since 1993, niwada, las vegas, buy a ticket, whose money is used for charity, participate in a contest, win a black badge award, which gives a lifetime free entry further.
+/SAD SATAN: a dark web video game, which may contain malware and is strictly restricted.
+Ethical hacker: roasting – cyber bullying. 
+
+*Network enumeration: information gathering basics. Network mapping – to gather the servers, the OSs used etc. Network enumeration includes the usernames, shares, groups, resources etc. Safe to use when only necessary ports (which are different for different protocols like http, ftp, mail etc) are made on or run. Nersys and anmap are the softwares used for this. https://www.youtube.com/watch?v=FWOKOenI4Os
+Attacks: 
+1.	Local wifi hacking + MITM
+2.	RAT + Social engineering
+3.	Malware/ script injection/ batch/ via firewall
+4.	Very less chances of direct hacking (Instagram server)
+5.	Above second and third methods usually take lots of bandwidth (low internet connection)
+* https://www.youtube.com/watch?v=qdjcwAUkN0c
+
+*OSI Model: open system interconnection. 7 layers of data processing. Internet and www are not the same. Internet is a network which connects the device with outside world. www is a web a child of internet. 
+1. Data -	Application: Network process to application
+2. Data-	Presentation: Data representation & encryption
+3. Data-	Session: Interhost communication
+4. Segments-	Transport: End-to-end connections and reliability
+5. Packets-	Network: Path determination & logical addressing (IP)
+6. Frames-	Data link: Physical addressing (MAC & LLC)
+7. Bits-	Physical: Media, signal and binary transmission
+https://www.youtube.com/watch?v=bQePtwtPcsE
+
+IOT Device – IP camera and CCTV camera difference: cctv – many cameras base on a central unit called dvr box, which takes analog signals from all cameras, which then can be either recorded or viewed live. Ip – same except input as digital signal into central hub unit, they can be centralized and also decentralized, it has an ip as it can be connected to lan or wifi. Ip can be easily hacked by bruteforce or packet capture, than cctv. 
+Indian GPS - navik: Indian regional navigational satellite system. 7 in orbit and 2 backup satellites on ground. 
+Phreaking: hacking phone to call for a long distance, which was unauthorized in 1960s. manual telephone exchange to automatic – tone. 2600 Hz for an international call. John draper, a US airforce technician, used the whistle of cap n crunch snacks, whose frequency was 2600 Hz to connect international call. Then he invented blue box, from which different sounds hack different phones. Steve wasnick and steve job, apple founders, used to sell these blue boxes and learnt hacking from John draper. DTMF – still based on tone, when a number is pressed it makes a sound, which will be captured and the process goes on.
