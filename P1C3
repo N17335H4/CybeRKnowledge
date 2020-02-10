@@ -1,0 +1,25 @@
+The following list includes devices, system and applications on which you might perform vulnerability and penetration tests:
+•	Routers and switches
+•	Firewalls
+•	Wireless access points
+•	Web applications (internal, external – hosted locally or inand the cloud)
+•	Database, email and file servers
+•	Mobile devices (such as smartphones and tablets) that store confidential information
+•	Physical security cameras and building access control systems
+•	Supervisory control and data acquisition (SCADA) and industrial control systems
+•	Workstations and servers
+
+Consider the factors:
+•	Whether the computer or application resides on the network or in the cloud.
+•	Which OS and applications the system runs.
+•	The amount or type of critical information stored on the system.
+
+Bow Tie and FMEA
+Attack tree analysis is the process of creating a flow-chart type mapping of how malicious attackers would attack a system. Attack trees are used in higher-level information risk analyses; they are also used by security-savvy development teams for planning new software projects. Commercial tools: SecurITree ( www.amenaza.com ), Microsoft Visio ( https://products.office.com/en-us/visio/visio-online ) or SmartDraw ( www.smartdraw.com )
+	Timeline
+	Documenting (read and write)
+	Record screen actions (while logging) by TechSmith’s Camstasia Studio (www.techsmith.com/camstasia.html )
+
+Cloud: a network of remote servers hosted on the Internet and used to store, manage, and process data in place of local servers or personal computers.
+IP address: a unique string of numbers separated by full stops that identifies each computer using the Internet Protocol to communicate over a network. An IP address serves two principal functions: host or network interface identification and location addressing.
+Use checksums where possible by comparing the original MD5 or SHA checksum with the one you get using a tool such as CheckSum Tool (http://sourceforge.net/projects/checksumtool).
