@@ -1,0 +1,29 @@
+Script kiddies: hacker wannabes with limited skills.
+
+Malicious mindset:
+•	Evading	an intrusion prevention system by changing the MAC or IP address every few minutes (or packets) to get farther into a network without being blocked. 
+•	Exploiting a physical security weakness by being aware of offices that have already been cleaned by the cleaning crew and are unoccupied (and, thus, easy to access with little chance of getting caught). Such a weakness might be made obvious by, for example, the fact that the office blinds are opened and the curtains are pulled shut in the early morning. 
+•	Bypassing web access controls by elevating their privileges via a vulnerable web page, the application’s login mechanism, or a vulnerable password reset process. 
+•	Using unauthorized software that would otherwise be blocked at the firewall by changing the default TCP port on which it runs. 
+•	Setting up a wireless “evil twin” near a local Wi-Fi hotspot to entice unsuspecting Internet surfers onto a rogue network, where their information can be captured and easily manipulated. 
+•	Using an overly trusting colleague’s user	ID and password to gain access to sensitive information that they’d otherwise be highly unlikely to obtain which could then be used for ill-gotten gains. 
+•	Unplugging the power cord or Ethernet connection to a networked security camera that monitors access to the computer room or other sensitive areas and subsequently gaining unmonitored system access. 
+•	Performing SQL injection or password cracking against a website via a neighbor’s unprotected wireless network to hide the malicious user’s own identity.
+
+Hackers’ underground websites: deep web or dark web, IRC- internet relay chat…
+
+Hackers magazines:
+•	2600 – the hacker quarterly magazine ( www.2600.com )
+•	(IN)SECURE magazine ( www.helpnetsecurity.com/insecuremag-archive )
+•	Hackin9 ( http://hakin9.org )
+•	PHRACK (www.phrack.org/archives)
+
+Hackers often remain anonymous by using one of the following resources:
+•	Borrowed or stolen remote desktop and virtual private network (VPN) accounts of friends or previous employers.
+•	Public computers at libraries, schools or hotel business centers.
+•	Open wireless networks.
+•	Internet proxy servers or anonymizer services.
+•	Anonymous or disposable email accounts.
+•	Open email relays.
+•	Infected computers (also called zombies or bots) at other organizations.
+•	Workstations or services on the victim’s own network.
