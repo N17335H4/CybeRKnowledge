@@ -1,0 +1,52 @@
+HACKING METHODOLOGY
+Snagit, like camstasia, for screen capture.
+Getting an outside look can turn up a ton of information about your organization and systems that others can see, and you do so through a process often called footprinting. Here’s how to gather the information:
+•	Use a web browser to search for information about your organization. Search engines, such as Google and Bing, are great places to start.
+•	Run network scans, probe open ports, and seek out vulnerabilities to determine specific information about your systems. As an insider, you can use port scanners, network discovery tools, and vulnerability scanners (such as Nmap, SoftPerfect Network Scanner, and GFI LanGuard) to see what’s accessible and to whom.
+Scanning systems:
+•	Use the information provided by WHOIS searches to test other closely related IP addresses and host names. When you map and gather information about a network, you see how its systems are laid out. This information includes determining IP addresses, host names (typically external but occasionally internal), running protocols, open ports, available shares, and running services and applications.
+•	Scan internal hosts when they’re within the scope of your testing. (They really ought to be.) These hosts may not be visible to outsiders (you hope they’re not), but you absolutely need to test them to see what rogue (or even curious or misguided) employees, other insiders, and even malware controlled by outside parties can access. A worst-case situation is that the intruder has set up shop on the inside. Just to be safe, examine your internal systems for weaknesses.
+Scan and document specific hosts that are accessible from the Internet and your internal network. Tools: NetScanTools Pro (www.netscantools.com) for Windows, fping (http://fping.sourceforge.net) for Linux. (www.whatismyip.com) shows how your gateway IP address appears on the Internet.
+Scan for open ports by using network scanning and analysis tools. 
+Scanning internally is easy. Simply connect your PC to the network, load the software, and fire away. Just be aware of network segmentation and internal IPSes that may impede your work.
+Scanning from outside your network takes a few more steps. The easiest way to connect and get an outside-in perspective is to assign your computer a public IP address and plug that system into a switch on the public side of your firewall or router. Physically, the computer isn’t on the Internet looking in, but this type of connection works the same way as long as it’s outside your network perimeter.
+What is running on open ports:
+•	Protocols in use, such as Domain Name System and NetBIOS.
+•	Services running on the hosts, such as email, web, and database systems.
+•	Available remote access services, such as Remote Desktop Protocol, Telnet, and Secure Shell.
+•	Virtual private network services such as SSL/TLS and IPsec.
+•	Permissions and authentication requirements for network shares.
+Sample ports:
+•	Ping (ICMP echo) replies, showing that ICMP traffic is allowed to and from the host.
+•	TCP port 21, showing that FTP could be running.
+•	TCP port 23, showing that Telnet could be running.
+•	TCP ports 25 or 465 (SMTP and SMPTS), 110 or 995 (POP3 and
+•	POP3S), or 143 or 993 (IMAP and IMAPS), showing that an email server could be running.
+•	TCP/UDP port 53, showing that a DNS server could be running.
+•	TCP ports 80, 443, and 8080, showing that a web server or web proxy could be running.
+•	TCP/UDP ports 135, 137, 138, 139 and, especially, 445, showing that a Windows host could be running.
+An email to an invalid address may return with detailed email header information. A bounced message often discloses information that can be used against you, including internal IP addresses and software versions. On certain Windows systems, you can use this information to establish unauthenticated connections and sometimes even map drives.
+For study of vulnerabilities:
+Common Vulnerabilities and Exposures (http://cve.mitre.org/cve)
+US-CERT Vulnerability Notes Database (www.kb.cert.org/vuls)
+NIST National Vulnerability Database (https://nvd.nist.gov)
+Commonly exploited vulnerabilities  https://www.sans.org/critical-security-controls 
+Paid//Port scanner and vulnerability assessment tool www.rapid7.com/products/nexpose 
+QualysGuard (https://www.qualys.com) and GFI LanGuard (https://www.gfi.com/products-and-solutions/network-securitysolutions)
+•	Manual assessment: You can assess the potential vulnerabilities by connecting to the ports that are exposing the service or application and poking around in these ports. You should manually assess certain systems (such as web applications). The vulnerability reports in the preceding databases often disclose how to do this, at least generally. If you have a lot of free time, performing these tests manually may work for you.
+•	Automated assessment.
+Some scanners map the business logic within a web application; others map a view of the network; others help software developers test for code flaws. The drawback to these tools is that they find only individual vulnerabilities; they don’t necessarily aggregate and correlate vulnerabilities across an entire network.
+Penetrating the system:
+•	Gain further information about the host and its data.
+•	Obtain a remote command prompt.
+•	Start or stop certain services or applications.
+•	Access other systems.
+•	Disable logging or other security controls.
+•	Capture screen shots.
+•	Access sensitive files.
+•	Send an email as the administrator.
+•	Perform SQL injection.
+•	Launch a denial of service attack.
+•	Upload a file or create a backdoor user account proving the exploitation of a vulnerability.
+For vulnerability and penetration testing methodologies: 
+Open Source Security Testing Methodology Manual (www.isecom.org/research/osstmm.html). The Penetration Testing Execution Standard (www.pentest-standard.org/index.php) and PCI DSS Penetration Testing Guidance www.pcisecuritystandards.org/documents/Penetration_Testing_Guidance
