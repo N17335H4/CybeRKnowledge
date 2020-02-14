@@ -1,0 +1,13 @@
+The amount of information you can gather about an organization’s business and information systems from the Internet is staggering. 
+Google search: <site name> keyword/filename or 
+for generic file-type search (to find Adobe Flash .swf files, which can be downloaded and decompiled to reveal sensitive information) - filetype:swf company_name. 
+for pdf files sensitive info - filetype:pdf company_name confidential
+
+Web-crawling utilities, such as HTTrack Website Copier (www.httrack.com), can mirror your website by downloading every publicly accessible file from it, similar to the way a web vulnerability scanner crawls the website it’s testing. Then you can inspect that copy of the website offline, digging into the following:
+-	The website layout and configuration
+-	Directories and files that may not otherwise be obvious or readily accessible
+-	The HTML and script source code of web pages
+-	Comment fields
+
+Can prevent some types of web crawling by creating Disallow entries in your web server’s robots.txt file, as outlined at www.w3.org/TR/html4/appendix/notes.html and can even enable web tarpitting in certain firewalls and intrusion prevention systems. Crawlers (and attackers) that are smart enough, however, can find ways around these controls.
+As part of mapping out your network, you can search public databases and resources to see what other people know about your systems, with WHOIS lookup, you can use to query online databases such as Domain Name System (DNS) registries to find out more about domain names and IP address blocks. 
