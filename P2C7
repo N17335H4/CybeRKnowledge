@@ -1,0 +1,6 @@
+PHYSICAL SECURITY
+Crack and obtain passwords directly from the computer by booting it with a tool such as the ophcrack LiveCD (http://ophcrack.sourceforge.net).
+Place penetration drop boxes such as those made by Pwnie Express (www.pwnieexpress.com) in a standard power outlet. These devices allow malicious intruders to connect to the system via a cellular connection and perform dirty deeds. This method is a really sneaky (spylike) means of intrusion that you can use as part of your own security testing.
+Network analyzers, Safes.
+Full disk encryption technologies: BitLocker in windows or WinMagic SecureDoc full disk encryption and FileVault in Mac OS. 
+Use bulk eraser on magnetic media and shred before they are discarded.
