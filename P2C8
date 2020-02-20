@@ -1,0 +1,10 @@
+PASSWORDS
+Can glean passwords simply by asking for them or by looking over the shoulders of users (shoulder surfing) while they type their passwords.
+Password vulnerabilities: organizational (lack of password policies) or user (lack of security awareness), technical (weak encryption methods and unsecure password storage on computers)
+Obscurity - a security measure that’s hidden from plain view but can be easily overcome.
+NIST identifies >4000 password-related vulnerabilities - issues at https://nvd.nist.gov/vuln/search
+3M Privacy Filters (https://www.3m.com/3M/en_US/privacy-screen-protectors-us) – countermeasure for shoulder surfing.
+Bypassing authentication - On older operating systems (such as Windows 9x) that prompt for a password, you can press Esc on the keyboard to get right in. 
+Current authentication systems, such as Kerberos and directory services (such as Microsoft’s Active Directory), encrypt user passwords or don’t communicate the passwords across the network, which creates an extra layer of security.
+Passwords typically are encrypted when they’re stored on a computer, using an encryption or one-way hash algorithm such as SHA2 or MD5. Then hashed passwords are represented as fixed-length encrypted strings that always represent the same passwords with exactly the same strings. These hashes are irreversible for all practical purposes, so in theory, passwords can never be decrypted.
+Certain passwords, such as those in Linux, have a random value called a salt added to them to create a degree of randomness. This value prevents the same password used by two people from having the same hash value.
