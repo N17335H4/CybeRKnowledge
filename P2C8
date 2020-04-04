@@ -8,8 +8,9 @@ Bypassing authentication - On older operating systems (such as Windows 9x) that 
 Current authentication systems, such as Kerberos and directory services (such as Microsoft’s Active Directory), encrypt user passwords or don’t communicate the passwords across the network, which creates an extra layer of security.
 Passwords typically are encrypted when they’re stored on a computer, using an encryption or one-way hash algorithm such as SHA2 or MD5. Then hashed passwords are represented as fixed-length encrypted strings that always represent the same passwords with exactly the same strings. These hashes are irreversible for all practical purposes, so in theory, passwords can never be decrypted.
 Certain passwords, such as those in Linux, have a random value called a salt added to them to create a degree of randomness. This value prevents the same password used by two people from having the same hash value.
+Password-cracking softwares: Brutus, SQLPing3, Cain & Abel, ElcomSoft distributed Password recovery, ElcomSoft System recovery, John the Ripper, ophcrack, Proactive password auditor, Proactive system password recovery, pwdump3, RainbowCrack, THC-Hydra.
 In Windows, after the password hashes are obtained, attackers can leverage an attack called pass the hash to send the hash rather than the actual password to the system for authentication.
-When trying to crack passwords, the associated user accounts may be locked out, which could         interrupt your users. Be careful if intruder lockout is enabled in your operating systems, databases, or applications. If lockout is enabled, you might lock out some or all computer/network accounts, resulting in a denial of service situation for your users.
+When trying to crack passwords, the associated user accounts may be locked out, which could interrupt your users. Be careful if intruder lockout is enabled in your operating systems, databases, or applications. If lockout is enabled, you might lock out some or all computer/network accounts, resulting in a denial of service situation for your users.
 Windows usually store passwords at: SAM database (file or its backup), or active directory database, in registry or as plain-text files on hard drive.
 Linux and other UNIX at: 
 •	/etc/passwd (readable by everyone)
@@ -21,3 +22,4 @@ Brute-force attacks – password cracking options in proactive password auditor.
 Rainbow attacks - to crack various password hashes for LM, NTLM, Cisco PIX, and MD5 much more quickly and with extremely high success rates. But for limited lengths only. The current maximum length for Microsoft LM hashes is 14 characters, and the maximum is 16 characters (dictionary-based) for Windows Vista and 7 hashes (also known as NT hashes).
 ***pwdump3 - to extract password hashes from the Windows SAM database.
 ***John the Ripper (to crack the hashes of Windows and Linux/Unix passwords)
+/170
