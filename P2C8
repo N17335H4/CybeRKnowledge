@@ -23,3 +23,7 @@ Rainbow attacks - to crack various password hashes for LM, NTLM, Cisco PIX, and 
 ***pwdump3 - to extract password hashes from the Windows SAM database.
 ***John the Ripper (to crack the hashes of Windows and Linux/Unix passwords)
 /170
+126|254 [128-2|256-2, without NULL and carriage return characters] ASCII characters are used in passwords. text file consisting all of them needs millions of terabytes of storage space. so rainbow attacks are considered more effective than brute-force or dictionary.
+keystroke logging: With keystroke-logging tools, one can assess the log files of an application to see what passwords people are using.
+A keystroke-logging tool installed on a shared computer can capture the passwords of every user who logs in.
+-defense: use an antimalware program or a similar endpoint protection software that monitors the local host. It’s not foolproof but can help. As with physical keyloggers, you’ll need to inspect each system visually.
