@@ -1,0 +1,16 @@
+Devices such as routers, firewalls, and even generic network hosts (including servers and workstations) must be assessed as part of the security testing process.
+The better you understand network protocols, the easier network vulnerability testing is because network protocols are the foundation for most information security concepts.
+REFERENCE: TCP/IP For Dummies, Request for Comments (RFCs) list on the Official Internet Protocol Standards page, www.rfc-editor.org/standards
+o-> 1:
+Where devices, such as a firewall or an intrusion prevention system (IPS), are placed on the network and how they’re configured.
+What external attackers see when they perform port scans and how they can exploit vulnerabilities in your network hosts.
+Network design, such as Internet connections, remote access capabilities, layered defenses, and placement of hosts on the network.
+Interaction of installed security devices, such as firewalls, IPSes, and antivirus.
+What protocols are in use, including known-vulnerable ones such as Secure Sockets Layer (SSL).
+Commonly attacked ports that are unprotected.
+Network host configurations.
+Network monitoring and maintenance.
+Test systems from the outside in and the inside in (that is, on and between internal network segments and demilitarized zones [DMZs]).
+Obtain permission from partner networks to check for vulnerabilities on their systems that can affect our network’s security, such as open ports, lack of a firewall, or a misconfigured router.
+Tools: port scanners, protocol analyzers and vulnerability assessment tools.
+/196
