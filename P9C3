@@ -13,4 +13,15 @@ Network monitoring and maintenance.
 Test systems from the outside in and the inside in (that is, on and between internal network segments and demilitarized zones [DMZs]).
 Obtain permission from partner networks to check for vulnerabilities on their systems that can affect our network’s security, such as open ports, lack of a firewall, or a misconfigured router.
 Tools: port scanners, protocol analyzers and vulnerability assessment tools.
-/196
+
+A port scanner shows you what’s what on your network by scanning the network to see what’s alive and working. Helps to identify unauthorized hosts or applications and network host configuration errors that can cause serious security vulnerabilities.
+One can get false positives on open ports, for example, and may have to dig deeper. 
+User Datagram Protocol (UDP) scans, like the protocol itself, are less reliable than Transmission Control Protocol (TCP) scans and often produce false positives because many applications don’t know how to respond to random incoming UDP requests.
+A feature-rich scanner such as Nexpose can identify ports and show what’s running in one step.
+An important tenet is to scan more than just the important hosts. Also, perform the same tests with different utilities to see whether you get different results. Not all tools find the same open ports and vulnerabilities.
+65,534 TCP ports + 65,534 UDP ports
+Ping sweep: involves pinging a range of addresses using Internet Control Message Protocol (ICMP) packets. Nmap commands.
+-Hosts that are active and reachable through the network.
+-Network addresses of the hosts found.
+-Services or applications that the hosts may be running
+Nmap: 
